@@ -46,7 +46,7 @@ L<Acme::CPANAuthors> - Main class to manipulate this one.
 
 =head1 AUTHOR
 
-Sergey Romanov, E<lt>sromanov@cpan.orgE<gt>.
+Sergey Romanov, C<sromanov@cpan.org>.
 
 =head1 COPYRIGHT AND LICENSE
 
