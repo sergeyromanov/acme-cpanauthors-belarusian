@@ -11,7 +11,7 @@ use Acme::CPANAuthors::Register(
     ZAG => 'Zahatski Aliaksandr',
 );
 
-"OK Go - Needing/Getting (Video Version)";
+1 && q[OK Go - Needing/Getting (Video Version)];
 
 __END__
 
