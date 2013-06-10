@@ -16,6 +16,7 @@ to Acme::CPANAuthors.
     my $number   = $authors->count;
     my @ids      = $authors->id;
     my @distros  = $authors->distributions('ZAG');
+    my $url      = $authors->avatar_url('ZAR');
 
 =head1 MAINTENANCE
 

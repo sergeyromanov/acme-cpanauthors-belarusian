@@ -1,13 +1,13 @@
 package Acme::CPANAuthors::Belarusian;
 
-use 5.012;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Acme::CPANAuthors::Register(
     ZAG => 'Zahatski Aliaksandr',
+    ZAR => 'Igor Zhuk',
 );
 
 1 && q[OK Go - Needing/Getting (Video Version)];
@@ -32,6 +32,7 @@ to Acme::CPANAuthors.
     my $number   = $authors->count;
     my @ids      = $authors->id;
     my @distros  = $authors->distributions('ZAG');
+    my $url      = $authors->avatar_url('ZAR');
 
 =head1 MAINTENANCE
 
