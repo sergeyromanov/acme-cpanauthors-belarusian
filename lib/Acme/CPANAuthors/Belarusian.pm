@@ -3,24 +3,24 @@ package Acme::CPANAuthors::Belarusian;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Acme::CPANAuthors::Register(
-    ZAG => 'Zahatski Aliaksandr',
-    ZAR => 'Igor Zhuk',
+    DMOL => 'Ivan Baidakou',
+    ZAG  => 'Zahatski Aliaksandr',
+    ZAR  => 'Igor Zhuk',
 );
 
 1 && q[OK Go - Needing/Getting (Video Version)];
 
 __END__
-
 =head1 NAME
 
 Acme::CPANAuthors::Belarusian - We are Belarusian CPAN authors
 
 =head1 DESCRIPTION
 
-This class provides a hash of Belarusian CPAN authors' Pause ID/name
+This class provides a hash of Belarusian CPAN authors' Pause IDs/names
 to Acme::CPANAuthors.
 
 =head2 SYNOPSIS
@@ -31,8 +31,9 @@ to Acme::CPANAuthors.
 
     my $number   = $authors->count;
     my @ids      = $authors->id;
-    my @distros  = $authors->distributions('ZAG');
-    my $url      = $authors->avatar_url('ZAR');
+    my @distros  = $authors->distributions('DMOL');
+    my $url      = $authors->avatar_url('ZAG');
+    my $kwalitee = $authors->kwalitee('ZAR');
 
 =head1 MAINTENANCE
 
