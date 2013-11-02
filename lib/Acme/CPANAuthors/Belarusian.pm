@@ -14,6 +14,10 @@ use Acme::CPANAuthors::Register(
 1 && q[OK Go - Needing/Getting (Video Version)];
 
 __END__
+=pod
+
+=encoding UTF-8
+
 =head1 NAME
 
 Acme::CPANAuthors::Belarusian - We are Belarusian CPAN authors
