@@ -1,14 +1,15 @@
-package Acme::CPANAuthors::Belarusian;
-
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+package Acme::CPANAuthors::Belarusian;
+
+our $VERSION = '0.04';
 
 use Acme::CPANAuthors::Register(
-    DMOL => 'Ivan Baidakou',
-    ZAG  => 'Zahatski Aliaksandr',
-    ZAR  => 'Igor Zhuk',
+    DMOL     => 'Ivan Baidakou',
+    GRISHKOV => 'Evgenni Grishkovelli',
+    ZAG      => 'Zahatski Aliaksandr',
+    ZAR      => 'Igor Zhuk',
 );
 
 1 && q[OK Go - Needing/Getting (Video Version)];
@@ -24,7 +25,7 @@ Acme::CPANAuthors::Belarusian - We are Belarusian CPAN authors
 
 =head1 DESCRIPTION
 
-This class provides a hash of Belarusian CPAN authors' Pause IDs/names
+This class provides a hash of Belarusian CPAN authors' PAUSE IDs/names
 to Acme::CPANAuthors.
 
 =head2 SYNOPSIS
@@ -47,7 +48,7 @@ or send a pull request. If you are listed but are not Belarusian
 
 =head1 SEE ALSO
 
-L<Acme::CPANAuthors> - Main class to manipulate this one.
+L<Acme::CPANAuthors> ‒ main class to manipulate this one.
 
 =head1 AUTHOR
 
@@ -55,7 +56,7 @@ Sergey Romanov, C<sromanov@cpan.org>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2013 by Sergey Romanov.
+Copyright (C) 2014 by Sergey Romanov.
 
 This library is free software; you can redistribute it and/or modify
 it under the terms of the Artistic License version 2.0.
